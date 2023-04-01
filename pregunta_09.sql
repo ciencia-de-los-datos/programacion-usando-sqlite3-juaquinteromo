@@ -38,3 +38,5 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT k1, MIN(C21) AS 'c21', c22, c23, c24, c25
+FROM tbl2
