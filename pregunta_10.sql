@@ -42,6 +42,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT k1, MIN(C21) AS 'c21', c22, c23, c24, c25
-FROM tbl2
+SELECT strftime('%Y',c14) AS 'YEAR', COUNT(*)
+FROM tbl1
+WHERE YEAR = '2018'
 
