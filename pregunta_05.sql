@@ -41,6 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT k0, c16
-FROM tbl1
-WHERE k0 = SUBSTR(c16, 1,1)
+SELECT * 
+from tbl0 
+WHERE C02 IN(100,600)
