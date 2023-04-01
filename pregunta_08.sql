@@ -40,6 +40,4 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT SUBSTR(c23,1,4) AS YEAR, ROUND(AVG(c21),6) AS 'avg(c21)'
-FROM tbl2
-GROUP BY SUBSTR(c23,1,4)
+SELECT strftime('%Y',c23), avg(c21) from tbl2 groupby strftime('%Y',c23)
