@@ -41,8 +41,7 @@
 --  4   I  3000  300  PPPPL  0.3
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---
-SELECT strftime('%Y',c14) AS 'YEAR', COUNT(*)
-FROM tbl1
-WHERE YEAR = '2018'
+select *
+FROM tbl0
+WHERE c02 >= 300
 
