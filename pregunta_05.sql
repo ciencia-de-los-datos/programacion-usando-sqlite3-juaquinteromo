@@ -42,5 +42,5 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 SELECT * 
-from tbl0 
+FROM tbl0 
 WHERE C02 IN(100,600)
